@@ -1890,3 +1890,13 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.02.20-07.32.46:450][142]LogAutomationController: Ignoring very large delta of 2.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2024.02.20-07.32.58:107][555]LogSlate: Window 'Project Settings' being destroyed
 [2024.02.20-07.32.58:149][555]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.20-07.34.29:396][973]LogSlate: External Image Picker: DecompressImage failed
+[2024.02.20-07.35.04:020][523]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.20-07.35.04:056][523]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.20-07.36.13:575][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.20-07.36.13:577][377]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Grp5_TileBasedMovement' took 0.020
+[2024.02.20-07.36.13:579][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/paperch] ([2] browsable assets)...
+[2024.02.20-07.36.13:579][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/paperch]
+[2024.02.20-07.36.13:597][377]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/paperch_Auto1
+[2024.02.20-07.36.13:599][377]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Saved/paperch_Auto1061DA52E46ABB61DDD982B96EA7F0279.tmp' to '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Saved/Autosaves/Game/Blueprints/paperch_Auto1.uasset'
+[2024.02.20-07.36.13:601][377]LogFileHelpers: Auto-saving content packages took 0.024
