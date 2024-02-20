@@ -2017,3 +2017,537 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.02.20-07.37.47:573][ 68]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
 [2024.02.20-07.37.47:589][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
 [2024.02.20-07.37.47:688][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.02.20-07.40.01:432][346]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.40.09:230][642]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.40.09:265][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.40.09:265][642]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:40:09 pm)
+[2024.02.20-07.40.09:266][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.40.09:269][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003155s)
+[2024.02.20-07.40.09:270][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.003266s)
+[2024.02.20-07.40.09:292][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.20-07.40.09:296][642]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.40.09:296][642]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.40.09:297][642]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.40.09:297][642]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2024.02.20-07.40.09:297][642]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.40.09:297][642]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.40.09:298][642]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.40.09:298][642]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.40.09:298][642]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.40.09:298][642]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.40.09:298][642]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.40.09:301][642]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.40.09:644][642]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.40.09:644][642]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.40.09:644][642]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.40.09:644][642]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.40.09:646][642]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.02.20-07.40.09:646][642]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.02.20-07.40.09:649][642]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.02.20-07.40.09:649][642]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.02.20-07.40.09:649][642]LogInit: FAudioDevice initialized with ID 16.
+[2024.02.20-07.40.09:649][642]LogAudio: Display: Audio Device (ID: 16) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.40.09:649][642]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.20-07.40.09:653][642]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.40.09:654][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.40.09
+[2024.02.20-07.40.09:654][642]LogWorld: Bringing up level for play took: 0.000916
+[2024.02.20-07.40.09:658][642]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.02.20-07.40.09:660][642]PIE: Server logged in
+[2024.02.20-07.40.09:661][642]PIE: Play in editor total start time 0.402 seconds.
+[2024.02.20-07.40.21:596][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.40.21:596][243]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.40.21:596][243]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.40.21:596][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.40.21:602][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.40.21:608][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.40.21:625][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.40.21:625][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.02.20-07.40.21:625][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.20-07.40.21:628][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.02.20-07.40.21:646][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.02.20-07.40.22:100][244]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.02.20-07.40.46:143][204]LogActorFactory: Actor Factory attempting to spawn PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite
+[2024.02.20-07.40.46:143][204]LogActorFactory: Actor Factory attempting to spawn PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite
+[2024.02.20-07.40.46:144][204]LogActorFactory: Actor Factory spawned PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite as actor: PaperSpriteActor /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement:PersistentLevel.PaperSpriteActor_2
+[2024.02.20-07.40.46:145][204]LogActorFactory: Actor Factory spawned PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite as actor: PaperSpriteActor /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement:PersistentLevel.PaperSpriteActor_2
+[2024.02.20-07.40.47:353][240]LogActorFactory: Actor Factory attempting to spawn PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite
+[2024.02.20-07.40.47:354][240]LogActorFactory: Actor Factory attempting to spawn PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite
+[2024.02.20-07.40.47:357][240]LogActorFactory: Actor Factory spawned PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite as actor: PaperSpriteActor /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement:PersistentLevel.PaperSpriteActor_3
+[2024.02.20-07.40.47:357][240]LogActorFactory: Actor Factory spawned PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite as actor: PaperSpriteActor /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement:PersistentLevel.PaperSpriteActor_3
+[2024.02.20-07.41.12:036][333]LogEditorViewport: Clicking Background
+[2024.02.20-07.41.48:240][929]Cmd: TRANSACTION UNDO
+[2024.02.20-07.41.48:240][929]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.20-07.41.55:754][238]Cmd: EDIT COPY
+[2024.02.20-07.41.56:021][250]Cmd: EDIT PASTE
+[2024.02.20-07.42.02:757][547]Cmd: EDIT PASTE
+[2024.02.20-07.42.06:217][694]Cmd: EDIT PASTE
+[2024.02.20-07.42.10:140][862]Cmd: EDIT PASTE
+[2024.02.20-07.42.17:988][207]Cmd: EDIT PASTE
+[2024.02.20-07.42.51:813][670]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.42.51:842][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.42.51:842][670]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:42:51 pm)
+[2024.02.20-07.42.51:842][670]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.42.51:847][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004470s)
+[2024.02.20-07.42.51:847][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.004572s)
+[2024.02.20-07.42.51:873][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.02.20-07.42.51:876][670]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.42.51:876][670]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.42.51:877][670]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.42.51:877][670]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2024.02.20-07.42.51:877][670]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.42.51:878][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.42.51:878][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.42.51:878][670]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.42.51:878][670]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.42.51:878][670]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.42.51:882][670]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.42.52:225][670]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.42.52:226][670]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.42.52:226][670]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.42.52:226][670]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.42.52:227][670]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.02.20-07.42.52:227][670]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.02.20-07.42.52:229][670]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.02.20-07.42.52:229][670]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.02.20-07.42.52:230][670]LogInit: FAudioDevice initialized with ID 17.
+[2024.02.20-07.42.52:231][670]LogAudio: Display: Audio Device (ID: 17) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.42.52:231][670]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.20-07.42.52:236][670]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.42.52:237][670]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.42.52
+[2024.02.20-07.42.52:237][670]LogWorld: Bringing up level for play took: 0.000999
+[2024.02.20-07.42.52:240][670]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.02.20-07.42.52:243][670]PIE: Server logged in
+[2024.02.20-07.42.52:243][670]PIE: Play in editor total start time 0.402 seconds.
+[2024.02.20-07.42.59:376][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.42.59:377][ 45]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.42.59:377][ 45]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.42.59:377][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.42.59:386][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.42.59:393][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.42.59:411][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.42.59:411][ 45]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.02.20-07.42.59:411][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.20-07.42.59:413][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.02.20-07.42.59:433][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.02.20-07.42.59:590][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.02.20-07.43.23:175][ 51]Cmd: DELETE
+[2024.02.20-07.43.23:175][ 51]Cmd: ACTOR DELETE
+[2024.02.20-07.43.23:195][ 51]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.02.20-07.43.23:198][ 51]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.02.20-07.43.23:200][ 51]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.02.20-07.43.23:203][ 51]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.02.20-07.43.23:205][ 51]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2024.02.20-07.43.23:240][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.20-07.43.23:244][ 51]LogEditorActor: Deleted 5 Actors (0.067 secs)
+[2024.02.20-07.43.33:350][500]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.43.33:378][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.43.33:378][500]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:43:33 pm)
+[2024.02.20-07.43.33:378][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.43.33:382][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003625s)
+[2024.02.20-07.43.33:382][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.003715s)
+[2024.02.20-07.43.33:414][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.20-07.43.33:417][500]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.43.33:417][500]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.43.33:417][500]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.43.33:418][500]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2024.02.20-07.43.33:418][500]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.43.33:418][500]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.43.33:418][500]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.43.33:419][500]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.43.33:419][500]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.43.33:419][500]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.43.33:422][500]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.43.33:773][500]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.43.33:773][500]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.43.33:774][500]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.43.33:774][500]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.43.33:774][500]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.02.20-07.43.33:775][500]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.02.20-07.43.33:777][500]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.02.20-07.43.33:777][500]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.02.20-07.43.33:777][500]LogInit: FAudioDevice initialized with ID 18.
+[2024.02.20-07.43.33:777][500]LogAudio: Display: Audio Device (ID: 18) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.43.33:777][500]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.20-07.43.33:781][500]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.43.33:783][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.43.33
+[2024.02.20-07.43.33:783][500]LogWorld: Bringing up level for play took: 0.001023
+[2024.02.20-07.43.33:787][500]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.02.20-07.43.33:790][500]PIE: Server logged in
+[2024.02.20-07.43.33:791][500]PIE: Play in editor total start time 0.415 seconds.
+[2024.02.20-07.43.40:176][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.43.40:176][840]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.43.40:176][840]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.43.40:176][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.43.40:189][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.43.40:200][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.43.40:220][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.43.40:221][840]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.02.20-07.43.40:221][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.20-07.43.40:223][840]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.02.20-07.43.40:243][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.02.20-07.43.40:373][841]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.02.20-07.43.47:801][144]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.43.47:830][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.43.47:830][144]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:43:47 pm)
+[2024.02.20-07.43.47:830][144]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.43.47:835][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004980s)
+[2024.02.20-07.43.47:835][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.005116s)
+[2024.02.20-07.43.47:864][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.02.20-07.43.47:867][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.43.47:867][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.43.47:868][144]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.43.47:868][144]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2024.02.20-07.43.47:868][144]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.43.47:868][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.43.47:868][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.43.47:869][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.43.47:869][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.43.47:869][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.43.47:872][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.43.48:256][144]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.43.48:257][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.43.48:257][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.43.48:257][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.43.48:258][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.02.20-07.43.48:258][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.02.20-07.43.48:260][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.02.20-07.43.48:261][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.02.20-07.43.48:261][144]LogInit: FAudioDevice initialized with ID 19.
+[2024.02.20-07.43.48:261][144]LogAudio: Display: Audio Device (ID: 19) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.43.48:261][144]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.20-07.43.48:266][144]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.43.48:267][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.43.48
+[2024.02.20-07.43.48:267][144]LogWorld: Bringing up level for play took: 0.001228
+[2024.02.20-07.43.48:271][144]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.02.20-07.43.48:273][144]PIE: Server logged in
+[2024.02.20-07.43.48:274][144]PIE: Play in editor total start time 0.446 seconds.
+[2024.02.20-07.43.50:176][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.43.50:176][240]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.43.50:177][240]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.43.50:178][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.43.50:191][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.43.50:203][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.43.50:224][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.43.50:225][240]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.02.20-07.43.50:225][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.20-07.43.50:227][240]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.02.20-07.43.50:246][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.02.20-07.43.50:331][241]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.02.20-07.43.57:999][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.43.58:010][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.43.58:010][545]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:43:58 pm)
+[2024.02.20-07.43.58:011][545]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.43.58:013][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001892s)
+[2024.02.20-07.43.58:013][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.001987s)
+[2024.02.20-07.43.58:035][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.02.20-07.43.58:037][545]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.43.58:037][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.43.58:038][545]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.43.58:038][545]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2024.02.20-07.43.58:039][545]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.43.58:039][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.43.58:039][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.43.58:039][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.43.58:039][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.43.58:039][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.43.58:043][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.43.58:456][545]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.43.58:456][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.43.58:456][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.43.58:456][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.43.58:457][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.02.20-07.43.58:457][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.02.20-07.43.58:460][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.02.20-07.43.58:460][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.02.20-07.43.58:460][545]LogInit: FAudioDevice initialized with ID 20.
+[2024.02.20-07.43.58:460][545]LogAudio: Display: Audio Device (ID: 20) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.43.58:460][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.20-07.43.58:465][545]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.43.58:466][545]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.43.58
+[2024.02.20-07.43.58:466][545]LogWorld: Bringing up level for play took: 0.000958
+[2024.02.20-07.43.58:469][545]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.02.20-07.43.58:471][545]PIE: Server logged in
+[2024.02.20-07.43.58:473][545]PIE: Play in editor total start time 0.463 seconds.
+[2024.02.20-07.44.18:006][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.44.18:006][623]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.44.18:007][623]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.44.18:007][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.44.18:015][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.44.18:025][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.44.18:051][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.44.18:051][623]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.02.20-07.44.18:051][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.20-07.44.18:054][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.02.20-07.44.18:072][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.02.20-07.44.18:216][624]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.02.20-07.44.33:725][288]Cmd: EDIT COPY
+[2024.02.20-07.44.33:901][296]Cmd: EDIT PASTE
+[2024.02.20-07.44.37:245][443]Cmd: EDIT PASTE
+[2024.02.20-07.44.40:514][585]LogEditorViewport: Clicking Background
+[2024.02.20-07.44.46:838][861]LogEditorViewport: Clicking Background
+[2024.02.20-07.44.47:471][890]Cmd: EDIT PASTE
+[2024.02.20-07.44.51:210][ 53]LogEditorViewport: Clicking Background
+[2024.02.20-07.44.54:013][174]Cmd: EDIT PASTE
+[2024.02.20-07.45.01:117][482]LogEditorViewport: Clicking Background
+[2024.02.20-07.45.02:289][535]Cmd: EDIT PASTE
+[2024.02.20-07.45.06:483][716]LogEditorViewport: Clicking Background
+[2024.02.20-07.45.07:966][782]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.45.07:999][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.45.07:999][782]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:45:07 pm)
+[2024.02.20-07.45.08:000][782]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.45.08:004][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004523s)
+[2024.02.20-07.45.08:004][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.004665s)
+[2024.02.20-07.45.08:030][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.02.20-07.45.08:034][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.45.08:035][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.45.08:035][782]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.45.08:035][782]LogPlayLevel: PIE: World Init took: (0.001655s)
+[2024.02.20-07.45.08:035][782]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.02.20-07.45.08:035][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.45.08:036][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.45.08:036][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.45.08:036][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.45.08:036][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.45.08:036][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.45.08:039][782]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.45.08:386][782]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.45.08:386][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.45.08:386][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.45.08:386][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.45.08:387][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.02.20-07.45.08:387][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.02.20-07.45.08:389][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.02.20-07.45.08:390][782]LogInit: FAudioDevice initialized with ID 21.
+[2024.02.20-07.45.08:390][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.02.20-07.45.08:390][782]LogAudio: Display: Audio Device (ID: 21) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.45.08:390][782]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.20-07.45.08:395][782]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.45.08:396][782]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.45.08
+[2024.02.20-07.45.08:396][782]LogWorld: Bringing up level for play took: 0.000984
+[2024.02.20-07.45.08:399][782]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.02.20-07.45.08:401][782]PIE: Server logged in
+[2024.02.20-07.45.08:403][782]PIE: Play in editor total start time 0.405 seconds.
+[2024.02.20-07.45.20:696][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.45.20:696][444]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.45.20:696][444]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.45.20:696][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.45.20:705][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.45.20:714][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.45.20:735][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.45.20:735][444]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.02.20-07.45.20:736][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.20-07.45.20:737][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.02.20-07.45.20:754][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.02.20-07.45.20:824][445]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.20-07.45.27:860][693]LogEditorViewport: Clicking Background
+[2024.02.20-07.45.48:782][555]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.45.48:809][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.45.48:809][555]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:45:48 pm)
+[2024.02.20-07.45.48:809][555]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.45.48:814][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004549s)
+[2024.02.20-07.45.48:814][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.004706s)
+[2024.02.20-07.45.48:847][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.02.20-07.45.48:849][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.45.48:849][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.45.48:850][555]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.45.48:850][555]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2024.02.20-07.45.48:850][555]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.02.20-07.45.48:850][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.45.48:850][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.45.48:851][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.45.48:851][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.45.48:851][555]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.45.48:851][555]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.45.48:851][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.45.48:851][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.45.48:851][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.45.48:851][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.45.48:851][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.45.48:853][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.45.49:230][555]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.45.49:230][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.45.49:231][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.45.49:231][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.45.49:231][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.02.20-07.45.49:231][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.02.20-07.45.49:234][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.02.20-07.45.49:234][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.02.20-07.45.49:234][555]LogInit: FAudioDevice initialized with ID 22.
+[2024.02.20-07.45.49:234][555]LogAudio: Display: Audio Device (ID: 22) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.45.49:234][555]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.20-07.45.49:239][555]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.45.49:240][555]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.45.49
+[2024.02.20-07.45.49:240][555]LogWorld: Bringing up level for play took: 0.001151
+[2024.02.20-07.45.49:244][555]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.02.20-07.45.49:246][555]PIE: Server logged in
+[2024.02.20-07.45.49:247][555]PIE: Play in editor total start time 0.44 seconds.
+[2024.02.20-07.45.50:416][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.45.50:416][607]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.45.50:416][607]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.45.50:417][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.45.50:423][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.45.50:433][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.45.50:450][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.45.50:450][607]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.20-07.45.50:451][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.20-07.45.50:453][607]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.20-07.45.50:471][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.02.20-07.45.50:555][608]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.20-07.45.56:153][825]Cmd: TRANSACTION UNDO
+[2024.02.20-07.45.56:153][825]LogEditorTransaction: Undo Move Elements
+[2024.02.20-07.46.06:386][203]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.46.06:401][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.46.06:402][203]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:46:06 pm)
+[2024.02.20-07.46.06:402][203]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.46.06:404][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001794s)
+[2024.02.20-07.46.06:404][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.001849s)
+[2024.02.20-07.46.06:421][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.02.20-07.46.06:425][203]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.46.06:425][203]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.46.06:426][203]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.46.06:426][203]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2024.02.20-07.46.06:426][203]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.46.06:426][203]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.46.06:426][203]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.46.06:427][203]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.46.06:427][203]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.46.06:427][203]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.46.06:430][203]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.46.06:771][203]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.46.06:772][203]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.46.06:772][203]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.46.06:772][203]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.46.06:772][203]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.02.20-07.46.06:773][203]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.02.20-07.46.06:776][203]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.02.20-07.46.06:776][203]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.02.20-07.46.06:776][203]LogInit: FAudioDevice initialized with ID 23.
+[2024.02.20-07.46.06:776][203]LogAudio: Display: Audio Device (ID: 23) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.46.06:776][203]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.20-07.46.06:781][203]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.46.06:782][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.46.06
+[2024.02.20-07.46.06:782][203]LogWorld: Bringing up level for play took: 0.001356
+[2024.02.20-07.46.06:785][203]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.02.20-07.46.06:787][203]PIE: Server logged in
+[2024.02.20-07.46.06:788][203]PIE: Play in editor total start time 0.387 seconds.
+[2024.02.20-07.46.09:706][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.46.09:706][336]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.46.09:707][336]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.46.09:707][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.46.09:715][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.46.09:726][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.46.09:743][336]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-07.46.09:743][336]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.20-07.46.09:743][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.20-07.46.09:747][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.20-07.46.09:761][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.46.09:764][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.02.20-07.46.09:899][337]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.02.20-07.46.11:744][404]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-07.46.11:772][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-07.46.11:773][404]PIE: New page: PIE session: Grp5_TileBasedMovement (20 Feb 2024, 11:46:11 pm)
+[2024.02.20-07.46.11:773][404]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.46.11:777][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004466s)
+[2024.02.20-07.46.11:777][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement to /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement (0.004632s)
+[2024.02.20-07.46.11:808][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.02.20-07.46.11:811][404]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-07.46.11:811][404]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-07.46.11:811][404]LogAIModule: Creating AISystem for world Grp5_TileBasedMovement
+[2024.02.20-07.46.11:811][404]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2024.02.20-07.46.11:811][404]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.02.20-07.46.11:811][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-07.46.11:811][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-07.46.11:811][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-07.46.11:813][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-07.46.11:813][404]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-07.46.11:813][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.20-07.46.11:813][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-07.46.11:813][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-07.46.11:813][404]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-07.46.11:813][404]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-07.46.11:813][404]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-07.46.11:816][404]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-07.46.12:217][404]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Razer Hammerhead TWS X)
+[2024.02.20-07.46.12:217][404]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-07.46.12:217][404]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-07.46.12:217][404]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-07.46.12:218][404]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.02.20-07.46.12:218][404]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.02.20-07.46.12:221][404]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.02.20-07.46.12:221][404]LogInit: FAudioDevice initialized with ID 24.
+[2024.02.20-07.46.12:221][404]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.02.20-07.46.12:221][404]LogAudio: Display: Audio Device (ID: 24) registered with world 'Grp5_TileBasedMovement'.
+[2024.02.20-07.46.12:221][404]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.02.20-07.46.12:226][404]LogLoad: Game class is 'GM_sidescroll_C'
+[2024.02.20-07.46.12:227][404]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement.Grp5_TileBasedMovement up for play (max tick rate 60) at 2024.02.20-15.46.12
+[2024.02.20-07.46.12:227][404]LogWorld: Bringing up level for play took: 0.001143
+[2024.02.20-07.46.12:231][404]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.02.20-07.46.12:233][404]PIE: Server logged in
+[2024.02.20-07.46.12:234][404]PIE: Play in editor total start time 0.463 seconds.
+[2024.02.20-07.46.20:986][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.46.20:986][862]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Grp5_TileBasedMovement
+[2024.02.20-07.46.20:986][862]LogWorld: UWorld::CleanupWorld for Grp5_TileBasedMovement, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-07.46.20:987][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.46.20:995][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-07.46.21:006][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-07.46.21:026][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-07.46.21:026][862]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.02.20-07.46.21:026][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.02.20-07.46.21:028][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.02.20-07.46.21:046][862]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.02.20-07.46.21:175][863]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.02.20-07.46.45:143][833]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2024.02.20-07.46.45:160][833]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-07.46.45:303][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.02.20-07.46.45:313][833]LogSavePackage: Moving output files for package: /Game/Maps/Grp5_TileBasedMovement
+[2024.02.20-07.46.45:316][833]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Saved/Grp5_TileBasedMovement49FB421C4DDB69495DEB49B466C27F0C.tmp' to '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Content/Maps/Grp5_TileBasedMovement.umap'
+[2024.02.20-07.46.45:331][833]LogFileHelpers: Saving map 'Grp5_TileBasedMovement' took 0.100
+[2024.02.20-07.46.45:343][833]LogSavePackage: Moving output files for package: /Game/PNG/environment/layers/middle
+[2024.02.20-07.46.45:345][833]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Saved/middle0F8DA3F546E245379A823AB16CE3DFBA.tmp' to '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Content/PNG/environment/layers/middle.uasset'
+[2024.02.20-07.46.45:356][833]LogSavePackage: Moving output files for package: /Game/PNG/environment/layers/middle_Sprite
+[2024.02.20-07.46.45:357][833]LogSavePackage: Moving '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Saved/middle_Sprite001609FD4EA19B783D85DCB7EB89D144.tmp' to '../../../../../../Users/andre/OneDrive/Documents/Unreal Projects/ProjectGrp5/Content/PNG/environment/layers/middle_Sprite.uasset'
+[2024.02.20-07.46.45:374][833]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms (total: 1.69 sec)
+[2024.02.20-07.46.45:380][833]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-07.46.45:380][833]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Grp5_TileBasedMovement.Grp5_TileBasedMovement
+[2024.02.20-07.46.45:380][833]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/PNG/environment/layers/middle.middle
+[2024.02.20-07.46.45:380][833]LogContentValidation: Display: Validating /Script/Paper2D.PaperSprite /Game/PNG/environment/layers/middle_Sprite.middle_Sprite
