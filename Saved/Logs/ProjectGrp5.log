@@ -1769,3 +1769,4 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.02.20-07.16.59:863][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 1.22 sec)
 [2024.02.20-07.16.59:866][421]AssetCheck: New page: Asset Save: tilemap
 [2024.02.20-07.16.59:866][421]LogContentValidation: Display: Validating /Script/Paper2D.PaperTileMap /Game/PNG/environment/layers/tilemap.tilemap
+[2024.02.20-07.28.58:479][119]LogViewport: Scene viewport resized to 1141x867, mode Windowed.
