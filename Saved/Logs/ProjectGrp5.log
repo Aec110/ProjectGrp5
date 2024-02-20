@@ -1886,3 +1886,7 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2024.02.20-07.31.53:794][400]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2024.02.20-07.31.53:811][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
 [2024.02.20-07.31.53:905][401]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.02.20-07.32.46:163][141]LogSlate: External Image Picker: DecompressImage failed
+[2024.02.20-07.32.46:450][142]LogAutomationController: Ignoring very large delta of 2.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.02.20-07.32.58:107][555]LogSlate: Window 'Project Settings' being destroyed
+[2024.02.20-07.32.58:149][555]LogSlate: Window 'Project Settings' being destroyed
